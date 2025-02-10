@@ -121,6 +121,29 @@
   - type: DisarmMalus
 
 - type: entity
+  name: Slasher's Machete
+  parent: [ BaseSword, BaseMajorContraband ]
+  id: MacheteAntag
+  description: Deathly looking blade fit for a maints murderer.
+  components:
+  - type: Tag
+    tags:
+    - Machete
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/machete.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 20
+        Pierce: 5
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    sprite: Objects/Weapons/Melee/machete.rsi
+  - type: DisarmMalus
+
+
+- type: entity
   name: claymore
   parent: [ BaseSword, BaseMajorContraband ]
   id: Claymore
