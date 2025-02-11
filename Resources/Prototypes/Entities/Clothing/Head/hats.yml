@@ -681,6 +681,19 @@
   - type: IdentityBlocker
 
 - type: entity
+  parent: [ ClothingHeadBase, BaseMajorContraband ]
+  id: ClothingHeadPaperSackSmileValid
+  name: Maints Slasher Mask
+  description: A Happy little smile, not creepy at all...
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/papersacksmile.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/papersacksmile.rsi
+  - type: IdentityBlocker
+
+
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadFishCap
   name: fishing cap
