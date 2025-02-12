@@ -16,6 +16,39 @@
   - type: HeldSpeedModifier
 
 - type: entity
+  parent: ClothingBackpackMedicalSlasher
+  id: ClothingBackpackDuffelMedSlasher
+  name: Medical Duffel Bag
+  description: A large duffel bag for holding medical items.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/duffel.rsi
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,7,4
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  id: Ointment10Lingering
+  id: Ointment10Lingering
+  id: Ointment10Lingering
+  id: RegenerativeMesh
+  id: RegenerativeMesh
+  id: RegenerativeMesh
+  id: Brutepack10Lingering
+  id: Brutepack10Lingering
+  id: MedicatedSuture
+  id: MedicatedSuture
+  id: Bloodpack10Lingering
+  id: Bloodpack10Lingering
+  id: tourniquet
+  id: Gauze
+  id: Gauze
+
+
+- type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelEngineering
   name: engineering duffel bag
